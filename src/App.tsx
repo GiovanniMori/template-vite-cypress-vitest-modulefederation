@@ -1,7 +1,16 @@
+import styled from "styled-components";
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+  color: black;
+`;
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
+    <Wrapper>
       Hello world!
-    </h1>
+    </Wrapper>
   )
 }
+
