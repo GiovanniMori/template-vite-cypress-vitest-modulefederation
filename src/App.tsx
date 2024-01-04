@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   padding: 4em;
@@ -13,3 +13,4 @@ export default function App() {
     </Wrapper>
   )
 }
+
